@@ -1,0 +1,39 @@
+.books-to-return-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  
+  .books-to-return-title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Montserrat;
+  }
+  
+  .books-to-return-button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Montserrat;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+  }
+  
+  .books-to-return-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+ 
+
+  
+  

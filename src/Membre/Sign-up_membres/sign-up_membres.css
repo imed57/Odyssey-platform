@@ -1,0 +1,208 @@
+body
+{
+  background-color: rgb(247, 247, 247);
+}
+
+.sign-up-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center; /* Added to center content horizontally */
+  flex-direction: column;
+}
+
+
+.sign-up-sign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed; /* Fixe la position de l'élément */
+  top: 50%; /* Le positionne à 50% à partir du haut */
+  left: 50%; /* Le positionne à 50% à partir de la gauche */
+  transform: translate(-50%, -50%); /* Ramène le centre de l'élément à ces coordonnées, le centrant effectivement */
+
+}
+
+
+.sign-up-card1 {
+  gap: 10px;
+  flex: 1;
+  width: 560px;
+  display: flex;
+  padding: 95px 12px 61px 12px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+.sign-up-button-fill1 {
+  gap: 211px;
+  height: 519px;
+  display: flex;
+  padding: 98px 0 0 0;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sign-up-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 30px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sign-up-card-seconnecter {
+  gap: 10px;
+  display: flex;
+  padding: 25px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  justify-content: center;
+}
+.sign-up-text2 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sign-up-card2 {
+  gap: 17px;
+  flex: 1;
+  width: 556px;
+  display: flex;
+  padding: 56px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.sign-up-title-login {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.sign-up-text4 {
+  color: var(--dl-color-default-maintext);
+  height: auto;
+  flex-grow: 1;
+  font-size: 26px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sign-up-name {
+  gap: 10px;
+  display: flex;
+  padding: 14px 24px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: rgba(239, 239, 239, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-up-name1 {
+  gap: 10px;
+  display: flex;
+  padding: 14px 24px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: rgba(239, 239, 239, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-up-name2 {
+  gap: 10px;
+  display: flex;
+  padding: 14px 24px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: rgba(239, 239, 239, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-up-name3 {
+  gap: 10px;
+  display: flex;
+  padding: 14px 24px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: rgba(239, 239, 239, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.sign-up-name:focus,
+.sign-up-name1:focus,
+.sign-up-name2:focus,
+.sign-up-name3:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px black;
+}
+
+
+.sign-up-button-fill2 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 0;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+.sign-up-text6 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}

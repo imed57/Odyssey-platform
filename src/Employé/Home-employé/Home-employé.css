@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(247, 247, 247);
+}
+
+.home-employee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: rgba(247, 247, 247, 1);
+}
+
+.home-employee-title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+
+.home-employee-button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Montserrat;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+}
+
+.home-employee-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+body {
+  background-color: rgb(247, 247, 247);
+}
+
+.home-employee-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 30px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+button {
+  margin: 20px;
+  padding: 14px 24px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-weight: 500;
+  cursor: pointer;
+}body {
+  background-color: rgb(247, 247, 247);
+}
+
+.home-employee-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.home-employee-title {
+  color: rgba(0, 0, 0, 1);
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Montserrat;
+  text-align: center;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.home-employee-button {
+  margin: 20px;
+  padding: 14px 24px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.home-employee-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
